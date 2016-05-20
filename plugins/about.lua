@@ -1,27 +1,21 @@
 local function run(msg, matches)
 return [[
-⚓️ ADVAN TEAM ⚓
+⚓️ SMART TEAM ⚓
    
-🗣Channel: @AdvanTM
+🗣Channel: @Smartgp
 ------------------
 🗣Developers:
-@janlou
-@amiraliiiiiiiii81
-Amir Hoseyn
+@Aliebadi5
+
 ------------------
-Github:
-github.com/janlou
-Source in Github:
-github.com/janlou/advansource
 
-#Please_Follow_our_github
 
-⚓️ ADVAN TEAM ⚓
+⚓️ SMART TEAM ⚓
    ]]
 end
 return {
     patterns = {
-        "^[!#/]([Aa][Bb][Oo][Uu][Tt])$"
+        "^[!#/]([Ss][Mm][Rr][Tt])$"
     },
     run = run
 }
