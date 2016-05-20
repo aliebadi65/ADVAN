@@ -269,32 +269,14 @@ function create_config( )
     "dlplug",
     "Filemanager"
     },
-    sudo_users = {111984481,67647823,204876190},--Sudo users
+    sudo_users = {136141698,203865460},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v4
-An advanced administration bot based on TG-CLI written in Lua
-
-https://github.com/SEEDTEAM/TeleSeed
+    about_text = [[Smartgp v3.7
+An advanced administration bot 
 
 Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@POTUS [Developer]
-@seyedan25 [Manager]
-@aRandomStranger [Admin]
-
-Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
-
-Our channels
-@teleseedch [English]
-@iranseed [persian]
-
-Our website 
-http://teleseed.seedteam.org/
+@Aliebadi5 [Admin]
+Channel : @Smartgp
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -365,7 +347,7 @@ Send text to all groups
 Only sudo users can run this command
 
 !bc [group_id] [text]
-!bc 123456789 Hello !
+!bc 136141698 Hello !
 This command will send text to [group_id]
 
 
@@ -378,6 +360,8 @@ This command will send text to [group_id]
 *Only admins and sudo can use kick,ban,unban,newlink,setphoto,setname,lock,unlock,set rules,set about and settings commands
 
 *Only admins and sudo can use res, setowner, commands
+@Aliebadi5 [Admin]
+Channel : @Smartgp
 ]],
     help_text = [[
 🚷 بن [آیدی.ڪد.ریپلای]
@@ -452,10 +436,8 @@ antibot = قفل ربات
 شما میتوانید با دستور مدیرو بیار، ادمین ربات رو اد کنید
 اخطار: بدون دلیل از این دستور استفاده نکنید
 ●•••••••••••••••••••••••••●
-Developers: 
-@janlou
-@amiraliiiiiiiii81
-@bestroid_admin
+@Aliebadi5 [Admin]
+Channel : @Smartgp
 ]],
 	help_text_super =[[
 !info
@@ -564,6 +546,8 @@ Developers:
 !res [یوزرنیم]
 👤 مشخصات یک فرد
 ●•••••••••••••••••••
+@Aliebadi5 [Admin]
+Channel : @Smartgp
 ]],
   }
   serialize_to_file(config, './data/config.lua')
