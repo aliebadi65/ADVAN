@@ -40,7 +40,7 @@ local function run(msg, matches)
    	  chat_add_user(chat_id, user_id, ok_cb, false)   
 	  local group_link = data[tostring(matches[2])]['settings']['set_link']
 	  local group_name = data[tostring(matches[2])]['settings']['set_name']
-	  return "Group Link is:\n"..group_link.."\n\n (Group name:"..group_name..")\nCreated by: @janlou\nPowered by: @AdvanTM"
+	  return "Group Link is:\n"..group_link.."\n\n (Group name:"..group_name..")\nCreated by: @Aliebadi5\nPowered by: @Smartgp"
 	  
     elseif matches[1] == 'link' and not data[tostring(matches[2])] then
 
@@ -66,7 +66,7 @@ patterns = {"^[!#/]([Ll]ink) (.*)$","^[!#/]([Gg]roups)$"},
 run = run
 }
 
---Created by: @janlou
---Powered by: @AdvanTM
+--Created by: @Aliebadi5
+--Powered by: @Smartgp
 --CopyRight all right reserved
 --This plugin is jsut for sudo
